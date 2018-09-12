@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-firebase-authentication",
+  "description": "Gatsby Firebase Authentication",
+  "version": "1.0.0",
+  "author": "Robin Wieruch <wrobin@gmx.net>",
+  "dependencies": {
+    "firebase": "^5.0.4",
+    "gatsby": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.3"
+  }
+}
