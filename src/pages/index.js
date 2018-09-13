@@ -1,13 +1,26 @@
-import React from 'react';
-import Layout from '../components/layout';
+import React from "react";
+import Layout from "../components/layout";
+import { Jumbotron, Button } from "reactstrap";
 
 const LandingPage = () => (
   <Layout>
-    <h1>Landing</h1>
-    <p>
-      The Landing Page is open to everyone, even though the user isn't signed
-      in.
-    </p>
+    <div>
+      <Jumbotron>
+        <h1 className="display-3">Hello, world!</h1>
+        <p className="lead">
+          This is a simple hero unit, a simple Jumbotron-style component for
+          calling extra attention to featured content or information.
+        </p>
+        <hr className="my-2" />
+        <p>
+          It uses utility classes for typography and spacing to space content
+          out within the larger container.
+        </p>
+        <p className="lead">
+          <Button color="primary">Learn More</Button>
+        </p>
+      </Jumbotron>
+    </div>
   </Layout>
 );
 

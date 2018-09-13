@@ -1,9 +1,10 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import React from "react";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navigation from './Navigation';
-import withAuthentication from './Session/withAuthentication';
+import Navigation from "./Navigation";
+import withAuthentication from "./Session/withAuthentication";
 
 const Layout = ({ children }) => (
   <StaticQuery
