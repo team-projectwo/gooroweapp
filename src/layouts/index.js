@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "materialize-css/dist/css/materialize.min.css";
 
 import Navigation from "../components/Navigation";
 import withAuthentication from "../components/Session/withAuthentication";
