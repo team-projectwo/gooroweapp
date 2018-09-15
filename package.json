@@ -7,9 +7,13 @@
     "firebase": "^5.0.4",
     "gatsby": "next",
     "gatsby-plugin-react-helmet": "next",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.0"
+    "materialize-css": "^0.97.8",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-helmet": "^5.2.0",
+    "react-materialize": "^2.4.5",
+    "react-parallax": "^2.0.0",
+    "reactstrap": "^6.4.0"
   },
   "keywords": [
     "gatsby"

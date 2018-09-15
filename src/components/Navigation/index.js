@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 
-import AuthUserContext from '../Session/AuthUserContext';
-import SignOutButton from '../SignOut';
-import * as routes from '../../constants/routes';
+import AuthUserContext from "../Session/AuthUserContext";
+import SignOutButton from "../SignOut";
+import * as routes from "../../constants/routes";
 
 const Navigation = () => (
   <AuthUserContext.Consumer>

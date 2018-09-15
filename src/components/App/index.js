@@ -1,17 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Navigation from '../Navigation';
-import LandingPage from '../Landing';
-import SignUpPage from '../SignUp';
-import SignInPage from '../SignIn';
-import PasswordForgetPage from '../PasswordForget';
-import HomePage from '../Home';
-import AccountPage from '../Account';
-import withAuthentication from '../Session/withAuthentication';
-import * as routes from '../../constants/routes';
+import Navigation from "../Navigation";
+import LandingPage from "../Landing";
+import SignUpPage from "../SignUp";
+import SignInPage from "../SignIn";
+import PasswordForgetPage from "../PasswordForget";
+import HomePage from "../Home";
+import AccountPage from "../Account";
+import withAuthentication from "../Session/withAuthentication";
+import * as routes from "../../constants/routes";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import './index.css';
+import "./index.css";
 
 const App = () => (
   <Router>
@@ -30,21 +31,21 @@ const App = () => (
       <Route exact path={routes.ACCOUNT} component={() => <AccountPage />} />
       <hr />
       <span>
-        Found in{' '}
+        Found in{" "}
         <a href="https://roadtoreact.com/course-details?courseId=TAMING_THE_STATE">
           Taming the State in React
         </a>
-      </span>{' '}
-      |{' '}
+      </span>{" "}
+      |{" "}
       <span>
-        Star the{' '}
+        Star the{" "}
         <a href="https://github.com/rwieruch/react-firebase-authentication">
           Repository
         </a>
-      </span>{' '}
-      |{' '}
+      </span>{" "}
+      |{" "}
       <span>
-        Receive a{' '}
+        Receive a{" "}
         <a href="https://www.getrevue.co/profile/rwieruch">
           Developer's Newsletter
         </a>

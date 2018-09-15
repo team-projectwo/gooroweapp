@@ -3,6 +3,7 @@ import { navigate } from "gatsby";
 
 import { auth } from "../../firebase";
 import * as routes from "../../constants/routes";
+import { Button } from "reactstrap";
 
 const updateByPropertyName = (propertyName, value) => () => ({
   [propertyName]: value
@@ -60,10 +61,9 @@ class SignInForm extends Component {
           type="password"
           placeholder="Password"
         />
-        <button disabled={isInvalid} type="submit">
+        <Button outline color="primary">
           Sign In
-        </button>
-
+        </Button>{" "}
         {error && <p>{error.message}</p>}
       </form>
     );
